@@ -1,11 +1,10 @@
 .driver-tile-container {
     display: flex;
-    position: relative;
+    flex-direction: column;
     border: 1px solid var(--color-border-darker);
     border-radius: 10px;
-    width: 100%;
-    opacity: 1;
     transition: visibility 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
 }
 
 .driver-tile-container.hidden {
@@ -15,17 +14,18 @@
     position: absolute;
 }
 
-.driver-name-container {
+.driver-name-container {    
     background-color: var(--hover-color);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5px 20px;
-    width: 7%;
-    overflow: hidden;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10px 15px;
+    overflow: visible;
     word-wrap: break-word;
     text-align: left;
     font-size: 14pt;
+    white-space: nowrap;
+    max-width: none;
 }
 
 .driver-surname {
@@ -34,10 +34,10 @@
 
 .driver-data-container {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
     padding: 20px;
-    gap: 150px
+    align-items: center;
+    gap: 20px;
 }
 
 .driver-data-container-grid {

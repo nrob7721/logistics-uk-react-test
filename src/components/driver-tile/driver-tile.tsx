@@ -34,7 +34,7 @@ function DriverTile(props: DriverTileProps) {
     return (
         <div key={props.driver.id} className={`driver-tile-container ${props.isVisible ? '' : 'hidden'}`}>
             <div className='driver-name-container'>
-                <div className='driver-surname'>{props.driver.surname.toUpperCase()}</div>
+                <div className='driver-surname'>{props.driver.surname.toUpperCase()},&nbsp;</div>
                 <div className='driver-firstname'>{props.driver.forename}</div>
             </div>
             <div className='driver-data-container'> 
