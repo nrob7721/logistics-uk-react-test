@@ -1,0 +1,24 @@
+{
+   "data":[
+      {
+		 "id": 1,
+         "title":"Home",
+         "url":"/"
+      },
+      {
+		 "id": 2,
+         "title":"Drivers",
+         "url":"/drivers"
+      },
+      {
+		 "id": 3,
+         "title":"Vehicles",
+         "url":"/vehicles"
+      },
+      {
+		 "id": 4,
+         "title":"About",
+         "url":"/about"
+      }
+   ]
+}

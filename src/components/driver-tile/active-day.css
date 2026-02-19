@@ -1,0 +1,31 @@
+.active-day-container {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.active-day-title {
+    font-size: 10pt;
+}
+
+.active-day-cell {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 2px;
+}
+
+.active-day-box {
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border: 2px solid var(--color-border-light)
+}
+
+.active-day-box.active {
+    background-color: rgb(96, 255, 109);
+}

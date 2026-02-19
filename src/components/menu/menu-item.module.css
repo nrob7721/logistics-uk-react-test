@@ -1,0 +1,25 @@
+.menuitem {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: left;    
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.menuitem:hover {
+    background-color: var(--hover-color);
+}
+
+.menuitem:active {
+    transform: scale(0.98);
+}
+
+.menuitem.selected {
+    background-color: rgb(197, 255, 192);
+}

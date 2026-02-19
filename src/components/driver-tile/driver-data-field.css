@@ -1,0 +1,17 @@
+.driver-data-field-container {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    overflow-wrap: break-word;
+}
+
+.driver-data-field-title {
+    font-size: 12pt;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.driver-data-field-value {
+    font-size: 10pt;
+    overflow: hidden;
+}

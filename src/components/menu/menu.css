@@ -1,0 +1,15 @@
+.menu {
+    width: 200px;
+    background-color: var(--color-bg-neutral);
+    float: left;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+}
+
+.menu-container {
+    position: relative;
+    border-right: 1px solid var(--color-border-light);
+}

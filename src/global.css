@@ -1,0 +1,23 @@
+:root {
+    --hover-color: #e2e2e2;
+    --light-hover-color: #f5f5f5;
+    --color-bg-neutral: #ffffff;
+    --color-border-light: rgb(224, 224, 224);
+    --color-border-darker: rgb(200, 200, 200);
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+}
+
+.main {
+    flex: 1;
+    padding: 2rem;
+    background-color: var(--color-bg-neutral);
+}

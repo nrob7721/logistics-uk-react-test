@@ -1,0 +1,11 @@
+.drivers-page-content {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.driver-tiles-container {
+    display: grid;
+    gap: 10px;
+    flex-direction: column;
+}
